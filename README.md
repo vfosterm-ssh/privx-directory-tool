@@ -1,10 +1,12 @@
 ## Installation
 1. Clone the repo:
+
 `git clone git@github.com:vfosterm-ssh/privx-directory-tool.git`
+
 2. copy the example configuration:
 ```
 cd privx-directory-tool
-cp example-config.py config.py
+cp example-config.py privxdt/config.py
 ```
 3. Edit the configuration as needed:
 ```python

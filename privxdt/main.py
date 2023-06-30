@@ -1,6 +1,6 @@
 import click
 import privx_api
-import config
+import privxdt.config as config
 from rich import print
 from rich.table import Table
 from rich.align import Align
@@ -62,6 +62,6 @@ def migrate(host_id, directory_id):
     host["source_id"] = directory_id
     resp = api.update_host(host_id, host)
     if resp.ok:
-        print(resp.data)
+        print("Success")
     else:
         raise Exception(resp.data)
