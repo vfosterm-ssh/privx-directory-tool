@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from gno.main.version import __version__
 
 setup(
     name="privx-directory-tool",
